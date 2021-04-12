@@ -1,4 +1,4 @@
-class bankApp extends knap{
+
 
 knapKlik knap10 = new knapKlik(50,50,50,50);
 knapKlik knap100 = new knapKlik(150,50,50,50);
@@ -15,6 +15,7 @@ void draw(){
   knap10.display();
   knap100.display();
   knap1000.display();
+  tekstBoks.display();
 }
 
 void mousePressed(){
@@ -32,5 +33,4 @@ void mousePressed(){
     konto.add(1000);
   }
   }
-}
 }
